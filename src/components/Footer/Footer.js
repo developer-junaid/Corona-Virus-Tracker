@@ -5,6 +5,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <hr />
+      <hr />
       <div class="page-wrapper"></div>
       <footer>
         <div class="footer">
@@ -26,20 +27,30 @@ function Footer() {
               <div class="socials">
                 <a
                   href="https://www.facebook.com/profile.php?id=100041078220896"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i class="fab fa-facebook"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/junaid-qureshi-34a180194/"
-                  rel="noopener noreferrer" target="_blank"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="https://twitter.com/Junaid084869/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://twitter.com/Junaid084869/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a href="https://github.com/developer-junaid" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://github.com/developer-junaid"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <i class="fab fa-github"></i>
                 </a>
               </div>
