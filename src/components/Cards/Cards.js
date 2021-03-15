@@ -1,11 +1,29 @@
 import React from "react";
-import { Card, CardContent, Typography, Grid } from "@material-ui/core";
+import {
+  Card,
+  CardContent,
+  Typography,
+  Grid,
+  CircularProgress,
+} from "@material-ui/core";
 import "../../App.css";
-import CountUp from "react-countup";  
+import CountUp from "react-countup";
 
 function Cards({ state: { confirmed, recovered, deaths, lastUpdate } }) {
   if (!confirmed) {
-    return "Loading...";
+    return (
+      <div
+        style={{
+          height: "100vh",
+          width: "100vw",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <CircularProgress />
+      </div>
+    );
   }
 
   return (

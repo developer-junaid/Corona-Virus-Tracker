@@ -74,11 +74,10 @@ function Chart({ data: { confirmed, recovered, deaths }, countryData }) {
     />
   ) : null;
 
-  return (
-    <div className={"chart-container"}>
-      {countryData ? Barchart : LineChart}
-    </div>
-  );
+  // Chart to show
+  let chartToShow = countryData ? Barchart : LineChart;
+
+  return <div className={"chart-container"}>{chartToShow}</div>;
 }
 
 export default Chart;
