@@ -2,7 +2,7 @@
 
 ### Image
 
-<img src='./images/home.png' alt="Covid19 WebApp"/>
+<img src='./images/virus.png' alt="Covid19 WebApp"/>
 
 ### Link: https://online-corona-tracker.web.app/
 
